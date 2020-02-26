@@ -17,7 +17,6 @@ const RELEASE = false
  'last' is defined simply by a window of 1 second of no more requests after it.
  You can adjust window time, based on need of application.
  
- @param f as any Function to execute
  @param tWin window as int in seconds
 */
 var AcceptLastOnly = function(tWin) {
@@ -55,11 +54,11 @@ var AcceptLastOnly = function(tWin) {
         setTimeout(() => {
           instance.execute();
         }, tWin);
+        instance.mutex = ACQUIRE
         console.log('[DEBUG] Opening window - setTimeout on '+ id) //idally should just see 1 log in 1 window
       } else {
         console.log('[WARN] '+ id +' ignored as wiating for window to close')
-      }
-      instance.mutex = ACQUIRE      
+      }      
     }
   };
   
@@ -82,7 +81,6 @@ async function asyncCall() {
   setTimeout(async () => {
         await  lock.call(() => {f1(6, "This one is outside the window")}, 6);
       }, 4000);
-  // expected output: 'resolved'
 }
 
 asyncCall();
