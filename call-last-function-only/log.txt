@@ -1,0 +1,15 @@
+call-last-function-only.html:75 calling
+call-last-function-only.html:51 AcceptLastOnly rejected call for now 1
+call-last-function-only.html:58 [DEBUG] Opening window - setTimeout on 1
+call-last-function-only.html:51 AcceptLastOnly rejected call for now 2
+call-last-function-only.html:60 [WARN] 2 ignored as wiating for window to close
+call-last-function-only.html:51 AcceptLastOnly rejected call for now 3
+call-last-function-only.html:60 [WARN] 3 ignored as wiating for window to close
+call-last-function-only.html:51 AcceptLastOnly rejected call for now 4
+call-last-function-only.html:60 [WARN] 4 ignored as wiating for window to close
+call-last-function-only.html:51 AcceptLastOnly rejected call for now 5
+call-last-function-only.html:60 [WARN] 5 ignored as wiating for window to close
+call-last-function-only.html:70 >> Executed f1(5) - last of the window
+call-last-function-only.html:38 [DEBUG Executed last] @ 0.001
+call-last-function-only.html:70 >> Executed f1(6) - This one is outside the window
+call-last-function-only.html:38 [DEBUG Executed last] @ 0
