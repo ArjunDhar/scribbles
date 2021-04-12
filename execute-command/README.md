@@ -5,7 +5,7 @@
 @see https://golang.org/pkg/os/exec/#Command
 ```
 
-A simple Go utility to execute a command. In this Exmaple a windows command.<br />
+A simple `Go` utility to execute a command. In this Exmaple a windows command.<br />
 
 The **example** executes a [tashark](https://www.wireshark.org/docs/man-pages/tshark.html) utility installed to sniff packets over an IP.<br />
 
