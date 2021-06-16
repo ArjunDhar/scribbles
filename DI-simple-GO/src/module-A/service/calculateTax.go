@@ -12,6 +12,7 @@ var appCalculator Calculator
 
 func SetAppCalculator(c Calculator) {
 	appCalculator = c
+	// Note : As an alternative one can derive the Calculator singleton, from the container here.
 }
 
 func CalcTax(user *model.User) float32 {
