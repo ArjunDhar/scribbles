@@ -38,3 +38,16 @@ The re-factoring works @ 2 levels:
 
 My [code on Github](https://github.com/ArjunDhar/scribbles/tree/master/DI-simple-GO) explains the working in a simplified form.
 
+## Other alternatives
+
+**Disclaimer**: 
+> My personal suggestion is that all these alternatives are just for a good-to-know. If one wants to use a proper framework then use google [Wire]((https://github.com/google/wire)
+
+**Happy to know peoples personal experience or recommendations on any other DI frameworks they can swear by, worth evaluation.**
+
+* [A New, Simpler Way to Do Dependency Injection in Go](https://elliotchance.medium.com/a-new-simpler-way-to-do-dependency-injection-in-go-9e191bef50d5)
+* [`dig` - Reflection based DI in go](https://github.com/uber-go/dig)
+* [`goioc`](https://github.com/goioc/di)
+* [`godim`](https://github.com/ekino/godim)
+* ... *several more*.
+
