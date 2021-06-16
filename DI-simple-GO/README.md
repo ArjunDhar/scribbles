@@ -41,7 +41,7 @@ My [code on Github](https://github.com/ArjunDhar/scribbles/tree/master/DI-simple
 ## Other alternatives
 
 **Disclaimer**: 
-> My personal suggestion is that all these alternatives are just for a good-to-know. If one wants to use a proper framework then use google [Wire]((https://github.com/google/wire)
+> My personal suggestion is that all these alternatives are just for a good-to-know. If one wants to use a proper framework then use google [Wire](https://github.com/google/wire)
 
 **Happy to know peoples personal experience or recommendations on any other DI frameworks they can swear by, worth evaluation.**
 
