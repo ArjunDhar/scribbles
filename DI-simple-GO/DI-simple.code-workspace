@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\installed\\gopath"
+		},		
+		{
+			"path": "D:\\MyWork\\github\\scribbles\\DI-simple-GO\\src"
+		}
+	],
+	"settings": {
+		"go.buildOnSave": "workspace",
+		"go.gopath": "D:\\MyWork\\github\\scribbles\\DI-simple-GO",
+		"go.inferGopath": false,
+		"go.gocodeAutoBuild": true,
+		"go.useCodeSnippetsOnFunctionSuggestWithoutType": true,
+		"go.formatTool": "gofmt",
+		"go.coverOnTestPackage": false,
+		"go.lintOnSave": "workspace",
+		"diffEditor.ignoreTrimWhitespace": false,
+		"html.format.contentUnformatted": "",
+		"go.languageServerFlags": [
+		
+		]
+	},
+}
