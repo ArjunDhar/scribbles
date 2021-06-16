@@ -36,5 +36,5 @@ The re-factoring works @ 2 levels:
 1. Ensure the generic code packages are not mixed with the application specific one. For this reason there are 2 packages `Module-A` and `application`.
 1. The application focuses on implementation `AppCalculator.` and glue `dependencies.go`; while the Module focuses on the reusable code.
 
-The rest of the code explains the working in a simplified form.
+My [code on Github](https://github.com/ArjunDhar/scribbles/tree/master/DI-simple-GO) explains the working in a simplified form.
 
