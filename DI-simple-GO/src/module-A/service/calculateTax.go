@@ -15,7 +15,7 @@ func SetAppCalculator(c Calculator) {
 }
 
 func CalcTax(user *model.User) float32 {
-	taxableIncomePerMonth := appCalculator.MonthlyAverageIncome(user) - appCalculator.HouseRentAllowane(user)
-	tax := float32(taxableIncomePerMonth) * 12 * (float32(appCalculator.GetTaxPercent() / 100)
+	taxableIncomePerMonth := appCalculator.MonthlyAverageIncome(user) - appCalculator.HouseRentAllowance(user)
+	tax := float32(taxableIncomePerMonth) * 12 * float32(appCalculator.GetTaxPercent())/100
 	return tax
 }

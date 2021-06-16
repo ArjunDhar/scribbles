@@ -11,5 +11,5 @@ func main() {
 		Name: "Arjun",
 		ID:   "1",
 	})
-	fmt.Println(tax) // 3240.0002
+	fmt.Println(tax) // 3240
 }
