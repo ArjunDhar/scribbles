@@ -11,4 +11,5 @@ This file injects the application specific dependencies into the Helpers / Servi
 
 func Init() {
 	modAServices.SetAppCalculator(&appServices.AppCalculator{})
+	// ... add more here
 }
