@@ -2,3 +2,5 @@ build
 .env
 *.log
 .vscode/
+pkg/
+**/*.code-workspace

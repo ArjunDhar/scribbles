@@ -39,7 +39,7 @@ If you increase the `ticker` time to call `clear()`; you can crash the VM @ some
 
 ### Sample CLI Out corresponding to above screens
 ```log
-D:\MyWork\Learning\self\GO\profiling-pprof\sample>go run main.go
+D:\...\profiling-pprof\sample>go run main.go
 [main]
 [Profiler started]
 2021/09/15 18:14:31 profile: memory profiling enabled (rate 4096), out\mem.pprof
