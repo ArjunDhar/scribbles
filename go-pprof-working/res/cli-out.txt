@@ -1,0 +1,30 @@
+D:\MyWork\Learning\self\GO\profiling-pprof\sample>go run main.go
+[main]
+[Profiler started]
+2021/09/15 18:14:31 profile: memory profiling enabled (rate 4096), out\mem.pprof
+[f()]
+[net/http] WebServer started @ http://localhost:8082/debug/pprof/
+[f->go] Timer fired : Clear slice[568187513] @  2021-09-15 18:15:31.1290589 +0530 IST m=+60.008981301
+[clear]
+[pre-clear] len= 568294570
+[post-clear] len= 0
+[f->go] Timer fired : Clear slice[294187520] @  2021-09-15 18:16:31.1291916 +0530 IST m=+120.009114001
+[clear]
+[pre-clear] len= 294187952
+[post-clear] len= 0
+[f->go] Timer fired : Clear slice[294187520] @  2021-09-15 18:17:31.1301379 +0530 IST m=+180.010060301
+[clear]
+[pre-clear] len= 294188396
+[post-clear] len= 0
+[f->go] Timer fired : Clear slice[573005841] @  2021-09-15 18:18:31.1291326 +0530 IST m=+240.009055001
+[clear]
+[pre-clear] len= 573227942
+[post-clear] len= 0
+[f->go] Timer fired : Clear slice[235350016] @  2021-09-15 18:19:31.1301378 +0530 IST m=+300.010060201
+[clear]
+[pre-clear] len= 235351899
+[post-clear] len= 0
+[f->go] Timer fired : Clear slice[459668480] @  2021-09-15 18:20:31.1298302 +0530 IST m=+360.009752601
+[clear]
+[pre-clear] len= 459669033
+[post-clear] len= 0
