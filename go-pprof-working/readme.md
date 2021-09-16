@@ -78,6 +78,7 @@ D:\...\profiling-pprof\sample>go run main.go
 
 ## References
 *These articles were the initial source, but they all have their own holes which are put together in my code*
+* [pprof](https://github.com/google/pprof/blob/master/doc/README.md)
 * [Gos pprof WebServer](https://github.com/golang/go/blob/master/src/net/http/pprof/pprof.go)
 * [Find memory Leaks in Go](https://tusharsheth.medium.com/how-i-found-memory-leaks-in-the-golang-app-using-pprof-56e5d55363ba)
 * [Memory leaks in Go](https://www.freecodecamp.org/news/how-i-investigated-memory-leaks-in-go-using-pprof-on-a-large-codebase-4bec4325e192/)
